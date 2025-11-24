@@ -1,7 +1,5 @@
 #root {
-    /*max-width: 1600px;*/
     margin: auto;
-    /*padding: 2rem;*/
     text-align: center;
     box-sizing: border-box;
 }
@@ -17,9 +15,27 @@
     gap: 0;
 }
 
-.logo {
+.image-container {
     grid-area: logo;
-    height: 20em;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.image-container img {
+    max-width: 40%;
+    min-width: 250px;
+    height: auto;
+    /* Maintain aspect ratio */
+    flex: 1 1 auto;
+    /* Allow images to grow and shrink */
+    object-fit: cover;
+}
+
+.logo {
     padding: 5em 1.5em 1.5em;
     will-change: filter;
     transition: filter 300ms;
