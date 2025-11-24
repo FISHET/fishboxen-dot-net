@@ -16,33 +16,41 @@ function App() {
                 <h1>TOM FISHER</h1>
                 <h2>Experienced SDET & Quality Coach</h2>
                 <section className={"menu"}>
-                    <ul>
-                        <li>
-                            <a href={"https://www.linkedin.com/in/tifisher"}>
-                                <FontAwesomeIcon icon={faLinkedinIn} />
-                            </a>
-                        </li>
+                    <div className={"sitename-container"}>
+                        <a href="/" className={"sitename"}>
+                            <h2>FISHBOXEN.NET</h2>
+                        </a>
+                    </div>
+                    <div className={"icon-list"}>
+                        <ul>
+                            <li>
+                                <a href={"https://www.linkedin.com/in/tifisher"}>
+                                    <FontAwesomeIcon icon={faLinkedinIn}/>
+                                </a>
+                            </li>
 
-                        <li>
-                            <a href={"https://github.com/FISHET"}>
-                                <FontAwesomeIcon icon={faGithub} />
-                            </a>
-                        </li>
+                            <li>
+                                <a href={"https://github.com/FISHET"}>
+                                    <FontAwesomeIcon icon={faGithub}/>
+                                </a>
+                            </li>
 
-                        <li>
-                            <a href={"https://open.spotify.com/user/flying_hellfish"}>
-                                <FontAwesomeIcon icon={faSpotify}/>
-                            </a>
-                        </li>
+                            <li>
+                                <a href={"https://open.spotify.com/user/flying_hellfish"}>
+                                    <FontAwesomeIcon icon={faSpotify}/>
+                                </a>
+                            </li>
 
-                        <li>
-                            <a href={"https://bsky.app/profile/fishboxen.net"}>
-                                <FontAwesomeIcon icon={faBluesky} />
-                            </a>
-                        </li>
+                            <li>
+                                <a href={"https://bsky.app/profile/fishboxen.net"}>
+                                    <FontAwesomeIcon icon={faBluesky}/>
+                                </a>
+                            </li>
 
 
-                    </ul>
+                        </ul>
+                    </div>
+
 
                 </section>
             </div>

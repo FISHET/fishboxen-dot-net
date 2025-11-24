@@ -63,8 +63,29 @@ h2 {
 .menu {
     grid-area: menu;
 
-    display: flex;
+    display: grid;
+    grid-template-areas:
+            'sitename space icon-list';
+
     background-color: var(--secondary-color);
+
+}
+
+.sitename-container {
+    grid-area: sitename;
+    display: flex;
+    justify-self: flex-start;
+    align-items: center;
+    padding-left: 1em;
+}
+
+.sitename {
+    text-decoration: none;
+}
+
+.icon-list {
+    grid-area: icon-list;
+    display: flex;
     justify-content: flex-end;
 }
 
