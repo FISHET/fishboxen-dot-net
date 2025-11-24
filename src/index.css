@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
 
 :root {
     font-family: "Archivo", sans-serif;
@@ -18,6 +19,14 @@
     --highlight-color: #5E17EB;
     --secondary-color: #F45987;
 }
+
+@font-face {
+    font-family: "Typo";
+    src: local("Typo"),
+    url("./fonts/typo-longest.demo-bold.otf") format("opentype");
+    font-weight: normal;
+}
+
 
 a {
     font-family: "Archivo Black", sans-serif;
@@ -38,19 +47,17 @@ body {
 }
 
 h1 {
-    font-family: "Impact", sans-serif;
+    font-family: "Typo", sans-serif;
     font-weight: 400;
     font-style: normal;
-    transform: scale(1, 1.75);
-    line-height: 1.2em;
-    letter-spacing: -0.02em;
+    transform: scale(1, 1.5);
     text-transform: uppercase;
-    font-size: 4rem;
+    font-size: 8rem;
     margin: 0.1em;
 }
 
 h2 {
-    font-family: "Archivo Black", sans-serif;
+    font-family: "Bayon", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 2em;
