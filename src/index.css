@@ -15,11 +15,13 @@
 
     /*default colours  */
     --background-color: #8C52FF;
-    --highlight-color: #F45987
+    --highlight-color: #5E17EB;
+    --secondary-color: #F45987;
 }
 
 a {
     font-family: "Archivo Black", sans-serif;
+    color: white;
 }
 
 a:hover {
@@ -28,8 +30,8 @@ a:hover {
 
 body {
     margin: 0;
-    display: flex;
-    place-items: center;
+    /*display: flex;*/
+    /*place-items: center;*/
     min-width: 320px;
     min-height: 100vh;
     background-color: var(--background-color);
@@ -44,7 +46,7 @@ h1 {
     letter-spacing: -0.02em;
     text-transform: uppercase;
     font-size: 4rem;
-    margin: 0.5em;
+    margin: 0.1em;
 }
 
 h2 {
