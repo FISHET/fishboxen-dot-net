@@ -36,16 +36,13 @@
 }
 
 .logo {
-    padding: 5em 1.5em 1.5em;
+    padding: 2em 1.5em 1.5em;
     will-change: filter;
     transition: filter 300ms;
 }
 
 .outer-grid-container h1 {
     grid-area: name;
-
-    /*padding-top: 1.5rem;*/
-    /*padding-bottom: 1.5rem;*/
 }
 
 .outer-grid-container h2 {
