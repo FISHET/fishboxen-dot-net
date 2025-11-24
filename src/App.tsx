@@ -10,7 +10,7 @@ function App() {
           <img src={avatar} className="logo" alt="My LinkedIn" />
         </a>
       </div>
-      <h1>Tom Fisher</h1>
+      <h1>TOM FISHER</h1>
       <h2>Experienced SDET & Quality Coach</h2>
     </>
   )
