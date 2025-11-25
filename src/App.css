@@ -26,7 +26,7 @@
 }
 
 .image-container img {
-    max-width: 40%;
+    max-width: 30%;
     min-width: 250px;
     height: auto;
     /* Maintain aspect ratio */
@@ -74,43 +74,4 @@
 
 .read-the-docs {
     color: #888;
-}
-
-.menu {
-    grid-area: menu;
-
-    display: grid;
-    grid-template-areas:
-            'sitename space icon-list';
-
-    background-color: var(--secondary-color);
-
-}
-
-.sitename-container {
-    grid-area: sitename;
-    display: flex;
-    justify-self: flex-start;
-    align-items: center;
-    padding-left: 1em;
-}
-
-.sitename {
-    text-decoration: none;
-}
-
-.icon-list {
-    grid-area: icon-list;
-    display: flex;
-    justify-content: flex-end;
-}
-
-ul {
-    list-style-type: none;
-    padding-right: 1em;
-}
-
-li {
-    font-size: 2em;
-    float: left;
 }

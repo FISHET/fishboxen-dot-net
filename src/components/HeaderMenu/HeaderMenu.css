@@ -1,0 +1,38 @@
+.header-menu {
+    grid-area: menu;
+
+    display: grid;
+    grid-template-areas:
+            'sitename space icon-list';
+
+    background-color: var(--secondary-color);
+
+}
+
+.sitename-container {
+    grid-area: sitename;
+    display: flex;
+    justify-self: flex-start;
+    align-items: center;
+    padding-left: 1em;
+}
+
+.sitename {
+    text-decoration: none;
+}
+
+.icon-list {
+    grid-area: icon-list;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon-list ul {
+    list-style-type: none;
+    padding-right: 1em;
+}
+
+.icon-list li {
+    font-size: 2em;
+    float: left;
+}
