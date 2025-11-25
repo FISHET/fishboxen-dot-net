@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function HeaderMenu() {
     return (
-        <section className={'header-menu'}>
+        <section className={'header-menu'} data-testid={'header-menu'}>
             <div className={'sitename-container'}>
                 <a href="/public" className={'sitename'}>
                     <h2>FISHBOXEN.NET</h2>
