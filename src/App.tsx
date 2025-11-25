@@ -1,5 +1,5 @@
 import './App.css';
-import avatar from './assets/avatar.png';
+import avatar from './assets/avatar.webp';
 import HeaderMenu from './components/HeaderMenu/HeaderMenu.tsx';
 
 function App() {
