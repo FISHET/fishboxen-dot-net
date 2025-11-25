@@ -7,11 +7,11 @@
 .outer-grid-container {
     display: grid;
     grid-template-areas:
-            'menu'
-            'logo'
-            'name'
-            'role'
-            'footer';
+        'menu'
+        'logo'
+        'name'
+        'role'
+        'footer';
     gap: 0;
 }
 

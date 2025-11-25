@@ -2,11 +2,9 @@
     grid-area: menu;
 
     display: grid;
-    grid-template-areas:
-            'sitename space icon-list';
+    grid-template-areas: 'sitename space icon-list';
 
     background-color: var(--secondary-color);
-
 }
 
 .sitename-container {

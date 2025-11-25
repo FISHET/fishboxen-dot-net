@@ -1,0 +1,13 @@
+{
+    "singleQuote": true,
+    "tabWidth": 4,
+    "overrides": [
+        {
+            "files": [".prettierrc", "package.json"],
+            "options": {
+                "parser": "json"
+            }
+        }
+    ],
+    "plugins": ["@trivago/prettier-plugin-sort-imports"]
+}

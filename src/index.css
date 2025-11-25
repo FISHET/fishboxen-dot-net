@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
 
 :root {
-    font-family: "Archivo", sans-serif;
+    font-family: 'Archivo', sans-serif;
 
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
@@ -15,21 +15,21 @@
     -moz-osx-font-smoothing: grayscale;
 
     /*default colours  */
-    --background-color: #8C52FF;
-    --highlight-color: #5E17EB;
-    --secondary-color: #F45987;
+    --background-color: #8c52ff;
+    --highlight-color: #5e17eb;
+    --secondary-color: #f45987;
 }
 
 @font-face {
-    font-family: "Typo";
-    src: local("Typo"),
-    url("./fonts/typo-longest.demo-bold.otf") format("opentype");
+    font-family: 'Typo';
+    src:
+        local('Typo'),
+        url('./fonts/typo-longest.demo-bold.otf') format('opentype');
     font-weight: normal;
 }
 
-
 a {
-    font-family: "Archivo Black", sans-serif;
+    font-family: 'Archivo Black', sans-serif;
     color: white;
 }
 
@@ -47,7 +47,7 @@ body {
 }
 
 h1 {
-    font-family: "Typo", sans-serif;
+    font-family: 'Typo', sans-serif;
     font-weight: 400;
     font-style: normal;
     transform: scale(1, 1.5);
@@ -57,7 +57,7 @@ h1 {
 }
 
 h2 {
-    font-family: "Bayon", sans-serif;
+    font-family: 'Bayon', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 2em;
