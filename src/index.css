@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo Black&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
 
 :root {
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Bayon', sans-serif;
 
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
@@ -29,7 +27,7 @@
 }
 
 a {
-    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bayon', sans-serif;
     color: white;
 }
 
@@ -85,17 +83,18 @@ button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-    :root {
-        color: #213547;
-        background-color: var(--background-color);
-    }
+/* enables a different profile when browser is set to LIGHT mode. I'll enable this later.
+/*@media (prefers-color-scheme: light) {*/
+/*    :root {*/
+/*        color: #213547;*/
+/*        background-color: var(--background-color);*/
+/*    }*/
 
-    a:hover {
-        color: var(--highlight-color);
-    }
+/*    a:hover {*/
+/*        color: var(--highlight-color);*/
+/*    }*/
 
-    button {
-        background-color: #f9f9f9;
-    }
-}
+/*    button {*/
+/*        background-color: #f9f9f9;*/
+/*    }*/
+/*}*/
