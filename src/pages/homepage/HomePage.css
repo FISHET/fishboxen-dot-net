@@ -65,6 +65,10 @@
     flex: 1 1 auto;
     /* Allow images to grow and shrink */
     object-fit: cover;
+    border: 5px solid var(--secondary-color);
+    /*border-color: var(--secondary-color);*/
+    border-radius: 20px;
+    filter: drop-shadow(0 0 1em var(--secondary-color));
 }
 
 .homepage-outer-grid-container .content {
