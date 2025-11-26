@@ -1,3 +1,4 @@
+import twoOneTwo from '../../assets/212.webp';
 import HeaderMenu from '../../components/HeaderMenu/HeaderMenu.tsx';
 import './HomePage.css';
 import { faFileLines } from '@fortawesome/free-solid-svg-icons';
@@ -34,8 +35,37 @@ export default function HomePage() {
                     </ul>
                 </section>
 
-                <section className={'content'}>
-                    <h1>Hello, World!</h1>
+                <section className={'content-container'}>
+                    <div className={'photo-container'}>
+                        <img src={twoOneTwo} alt="Teaching in action" />
+                    </div>
+
+                    <div className={'content'}>
+                        <h2>
+                            I am a passionate Software Quality Engineer with
+                            over a decade of experience in Testing.
+                        </h2>
+                        <h2>
+                            I have a strong technical background, with a
+                            specialism in Java projects.
+                        </h2>
+                        <h2>
+                            Over the years, I have built frameworks, mastered
+                            templates, and developed libraries for others to
+                            leverage.
+                        </h2>
+                        <h2>
+                            As a Quality Coach, I was also responsible for
+                            promoting Software Quality culture across all teams
+                            in Tech.
+                        </h2>
+                        <h2>
+                            <em>
+                                I am now available immediately after redundancy
+                                of the Quality job family at Capital One.
+                            </em>
+                        </h2>
+                    </div>
                 </section>
 
                 <div className={'footer'}>
