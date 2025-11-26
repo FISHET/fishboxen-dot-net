@@ -9,8 +9,7 @@ export default function IntroPage() {
                 <div>
                     <section className={'image-container'}>
                         <a
-                            href="/home"
-                            // target="_blank"
+                            href="/#home"
                         >
                             <img
                                 src={avatar}
