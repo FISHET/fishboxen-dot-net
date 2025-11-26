@@ -18,13 +18,16 @@ export default function HeaderMenu() {
             <div className={'icon-list'}>
                 <ul>
                     <li>
-                        <a href={'https://www.linkedin.com/in/tifisher'}>
+                        <a
+                            href={'https://www.linkedin.com/in/tifisher'}
+                            target="_blank"
+                        >
                             <FontAwesomeIcon icon={faLinkedinIn} />
                         </a>
                     </li>
 
                     <li>
-                        <a href={'https://github.com/FISHET'}>
+                        <a href={'https://github.com/FISHET'} target="_blank">
                             <FontAwesomeIcon icon={faGithub} />
                         </a>
                     </li>
@@ -34,13 +37,17 @@ export default function HeaderMenu() {
                             href={
                                 'https://open.spotify.com/user/flying_hellfish'
                             }
+                            target="_blank"
                         >
                             <FontAwesomeIcon icon={faSpotify} />
                         </a>
                     </li>
 
                     <li>
-                        <a href={'https://bsky.app/profile/fishboxen.net'}>
+                        <a
+                            href={'https://bsky.app/profile/fishboxen.net'}
+                            target="_blank"
+                        >
                             <FontAwesomeIcon icon={faBluesky} />
                         </a>
                     </li>

@@ -6,11 +6,10 @@ export default function IntroPage() {
     return (
         <>
             <div className={'outer-grid-container'}>
+                <HeaderMenu />
                 <div>
                     <section className={'image-container'}>
-                        <a
-                            href="/#home"
-                        >
+                        <a href="/#home">
                             <img
                                 src={avatar}
                                 className="logo"
@@ -21,7 +20,6 @@ export default function IntroPage() {
                 </div>
                 <h1>TOM FISHER</h1>
                 <h2>Experienced SDET & Quality Coach</h2>
-                <HeaderMenu />
             </div>
         </>
     );

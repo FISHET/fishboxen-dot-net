@@ -1,7 +1,7 @@
 import './App.css';
 import HomePage from './pages/homepage/HomePage.tsx';
 import IntroPage from './pages/intropage/IntroPage.tsx';
-import {HashRouter, Route, Routes} from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 
 export default function App() {
     return (

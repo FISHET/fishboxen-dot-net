@@ -1,0 +1,58 @@
+.homepage-outer-grid-container {
+    display: grid;
+    grid-template-rows: 89px 70px auto 20%;
+    grid-template-areas:
+        'menu'
+        'submenu'
+        'content'
+        'footer';
+    /*gap: 1em;*/
+    height: 100vh;
+}
+
+.homepage-outer-grid-container .submenu {
+    grid-area: submenu;
+    background-color: #1a1a1a;
+    height: 100%;
+}
+
+.homepage-outer-grid-container .submenu ul {
+    overflow: hidden;
+    padding: 0;
+    margin-left: 1em;
+}
+
+.homepage-outer-grid-container .submenu li {
+    list-style: none;
+    float: left;
+}
+
+.homepage-outer-grid-container .submenu a {
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.homepage-outer-grid-container .submenu a:hover {
+    color: grey;
+}
+
+.homepage-outer-grid-container .content {
+    grid-area: content;
+    align-self: center;
+}
+
+.homepage-outer-grid-container .content h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.homepage-outer-grid-container .footer {
+    grid-area: footer;
+    align-self: center;
+
+    background-color: grey;
+
+    /*min-height: auto;*/
+    height: 100%;
+}
