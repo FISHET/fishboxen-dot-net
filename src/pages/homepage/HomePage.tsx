@@ -39,7 +39,7 @@ export default function HomePage() {
                 </section>
 
                 <div className={'footer'}>
-                    <h1>this is the footer</h1>
+                    <h3>Thomas Ian Fisher, 2025</h3>
                 </div>
             </div>
         </>

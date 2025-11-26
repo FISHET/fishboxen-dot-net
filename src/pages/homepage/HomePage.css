@@ -49,10 +49,16 @@
 
 .homepage-outer-grid-container .footer {
     grid-area: footer;
-    align-self: center;
-
     background-color: grey;
-
-    /*min-height: auto;*/
+    min-height: auto;
     height: 100%;
 }
+
+.homepage-outer-grid-container .footer h2 {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+
+    align-self: center;
+}
+
