@@ -7,11 +7,13 @@ Built using Vite, React, and Jest.
 Hosted on GitHub pages at [fishboxen.net](https://fishboxen.net/).
 
 ## Build the app
+
 ```bash
     npm build
 ```
 
 ## Run the app locally
+
 ```bash
   npm run dev
 ```
@@ -20,6 +22,7 @@ Hosted on GitHub pages at [fishboxen.net](https://fishboxen.net/).
 - Unit test reports stored in [/reports/unit-test](./reports/unit-test)
 
 ## Test the app
+
 ```bash
     npm run test
 ```
