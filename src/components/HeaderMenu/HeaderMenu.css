@@ -1,10 +1,26 @@
 .header-menu {
     grid-area: menu;
+    position: sticky;
+    top: 0;
 
     display: grid;
     grid-template-areas: 'sitename space icon-list';
 
     background-color: var(--secondary-color);
+}
+
+.header-menu-scrolling {
+    grid-area: menu;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    display: grid;
+    grid-template-areas: 'sitename space icon-list';
+
+    background-color: var(--secondary-color);
+
+    opacity: 80%;
 }
 
 .sitename-container {

@@ -6,10 +6,18 @@ import {
     faSpotify,
 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {useState} from "react";
 
 export default function HeaderMenu() {
+    const [scrolling, setScrolling] = useState(false);
+    const imScrolling = () => {
+        window.scrollY >= 1 ? setScrolling(true) : setScrolling(false);
+    };
+
+    window.addEventListener('scroll', imScrolling);
+
     return (
-        <section className={'header-menu'} data-testid={'header-menu'}>
+        <section className={scrolling ? 'header-menu-scrolling' : 'header-menu'} data-testid={'header-menu'}>
             <div className={'sitename-container'}>
                 <a href="/" className={'sitename'}>
                     <h2>FISHBOXEN.NET</h2>
