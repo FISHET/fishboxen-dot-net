@@ -11,9 +11,11 @@ export default function IntroPage() {
                     <section className={'image-container'}>
                         <a href="/#home">
                             <img
+                                data-testid="big-avatar"
                                 src={avatar}
                                 className="logo"
                                 alt="Come on in"
+
                             />
                         </a>
                     </section>
