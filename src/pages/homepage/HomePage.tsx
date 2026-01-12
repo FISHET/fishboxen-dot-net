@@ -15,7 +15,7 @@ export default function HomePage() {
                         <li>
                             <a
                                 href={
-                                    'https://drive.google.com/file/d/1MHGB9RdpAsbQsa8EyUR-D1b7HQVR7X6B/view?usp=sharing'
+                                    'https://docs.google.com/document/d/e/2PACX-1vQ_SycgjnmD4VUSO4N587goFXMtupzqpzJX0MwMgyP1NnA762FALdZE2jJVvsMgZXwTSgteA5gzHPjN/pub'
                                 }
                                 target="_blank"
                             >
