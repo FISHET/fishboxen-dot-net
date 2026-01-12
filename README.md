@@ -23,6 +23,14 @@ Hosted on GitHub pages at [fishboxen.net](https://fishboxen.net/).
 
 ## Test the app
 
+### Unit tests
+
 ```bash
     npm run test
+```
+
+### E2E tests
+
+```bash
+ npx playwright tes
 ```

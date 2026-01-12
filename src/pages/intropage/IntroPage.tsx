@@ -19,8 +19,8 @@ export default function IntroPage() {
                         </a>
                     </section>
                 </div>
-                <h1>TOM FISHER</h1>
-                <h2>Experienced SDET & Quality Coach</h2>
+                <h1 data-testid={"title-name"}>TOM FISHER</h1>
+                <h2 data-testid={"subtitle-role"}>Experienced SDET & Quality Coach</h2>
             </div>
         </>
     );

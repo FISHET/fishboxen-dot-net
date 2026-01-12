@@ -19,13 +19,13 @@ export default function HeaderMenu() {
     return (
         <section className={scrolling ? 'header-menu-scrolling' : 'header-menu'} data-testid={'header-menu'}>
             <div className={'sitename-container'}>
-                <a href="/" className={'sitename'}>
+                <a href="/" className={'sitename'} data-testid={'site-name'}>
                     <h2>FISHBOXEN.NET</h2>
                 </a>
             </div>
-            <div className={'icon-list'}>
+            <div className={'icon-list'} data-testid={'icon-list'}>
                 <ul>
-                    <li>
+                    <li data-testid={'menu-item-linked-in'}>
                         <a
                             href={'https://www.linkedin.com/in/tifisher'}
                             target="_blank"
@@ -34,13 +34,13 @@ export default function HeaderMenu() {
                         </a>
                     </li>
 
-                    <li>
+                    <li data-testid={'menu-item-github'}>
                         <a href={'https://github.com/FISHET'} target="_blank">
                             <FontAwesomeIcon icon={faGithub} />
                         </a>
                     </li>
 
-                    <li>
+                    <li data-testid={'menu-item-spotify'}>
                         <a
                             href={
                                 'https://open.spotify.com/user/flying_hellfish'
@@ -51,7 +51,7 @@ export default function HeaderMenu() {
                         </a>
                     </li>
 
-                    <li>
+                    <li data-testid={'menu-item-bluesky'}>
                         <a
                             href={'https://bsky.app/profile/fishboxen.net'}
                             target="_blank"
