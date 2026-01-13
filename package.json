@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && jest && npm run e2e",
     "lint": "prettier . --write && eslint --fix",
     "preview": "vite preview",
-    "test": "jest"
+    "test": "jest",
+    "e2e": "npx playwright test"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.1.0",

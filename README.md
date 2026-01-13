@@ -32,5 +32,5 @@ Hosted on GitHub pages at [fishboxen.net](https://fishboxen.net/).
 ### E2E tests
 
 ```bash
- npx playwright tes
+ npx playwright test
 ```
