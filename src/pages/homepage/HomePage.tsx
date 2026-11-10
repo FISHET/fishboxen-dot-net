@@ -43,7 +43,7 @@ export default function HomePage() {
                     <div className={'content'}>
                         <h2>
                             I am a passionate Software Quality Engineer with
-                            over a decade of experience in Testing.
+                            over a decade of experience in Quality.
                         </h2>
                         <h2>
                             I have a strong technical background, with a
@@ -55,14 +55,13 @@ export default function HomePage() {
                             leverage.
                         </h2>
                         <h2>
-                            As a Quality Coach, I was also responsible for
+                            As a Quality Coach, I am also responsible for
                             promoting Software Quality culture across all teams
                             in Tech.
                         </h2>
                         <h2>
                             <em>
-                                I am now available immediately after redundancy
-                                of the Quality job family at Capital One.
+                                I am currently working as a Principal Consultant for Appvia
                             </em>
                         </h2>
                     </div>
